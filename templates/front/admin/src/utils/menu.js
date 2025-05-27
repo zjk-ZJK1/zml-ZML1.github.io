@@ -1,0 +1,6 @@
+const menu = {
+    list() {
+        return [{"backMenu":[{"child":[{"allButtons":["新增","查看","修改","删除","厂商销量统计","每年销售量统计(年)","每月销售量统计(月)","导入","上传模板","下载模板","首页总数","生成数据"],"appFrontIcon":"cuIcon-list","buttons":["新增","查看","修改","删除","导出","导入"],"menu":"厂商每月销售","menuJump":"列表","tableName":"monthlysalesofmanufacturers"}],"menu":"厂商每月销售管理"},{"child":[{"allButtons":["新增","查看","修改","删除","车型统计","车型销量数据统计","厂商销售数据统计","厂商词云","车型词云","导入","上传模板","下载模板","首页总数"],"appFrontIcon":"cuIcon-rank","buttons":["新增","查看","修改","删除","导出","导入"],"menu":"车型每月销量","menuJump":"列表","tableName":"monthlysalesofcarmodels"}],"menu":"车型每月销量管理"},{"child":[{"allButtons":["新增","查看","修改","删除","导入","上传模板","下载模板","首页总数"],"appFrontIcon":"cuIcon-addressbook","buttons":["新增","查看","修改","删除","导出","导入"],"menu":"汽车总体销量","menuJump":"列表","tableName":"overallsalesofcars"}],"menu":"汽车总体销量管理"},{"child":[{"allButtons":["新增","查看","修改","删除"],"appFrontIcon":"cuIcon-phone","buttons":["新增","查看","修改","删除"],"menu":"销量预测","menuJump":"列表","tableName":"monthlysalesofcarmodelsforecast"}],"menu":"销量预测管理"},{"child":[{"allButtons":["查看"],"appFrontIcon":"cuIcon-rank","buttons":["查看"],"menu":"看板","tableName":"hasBoard"}],"menu":"看板管理"}],"frontMenu":[],"hasBackLogin":"是","hasBackRegister":"否","hasFrontLogin":"否","hasFrontRegister":"否","roleName":"管理员","tableName":"users"}]
+    }
+}
+export default menu;
